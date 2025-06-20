@@ -8,7 +8,7 @@ The release-kraken suite of tools was developed for a variety of different tasks
 ![rk-overview](./docs/release_kraken_infra_overview.drawio.png)
 
 ---
-### RK-Release-Page-Generator
+### RK-Release-Page-Generator (CoOps)
 
 The company releases multiple new software versions from different Dev teams every Saturday. This app generates a rich release page table in confluence by making API calls to JIRA, Bamboo and Confluence. Whilst this is an ostensibly simple application, it possesses additional features that made it indispensable for all the teams that help with the release process. i.e. Developers, DevOps, Support, QA and Management.
 
@@ -61,7 +61,7 @@ Tests PR merges for errors:
 ![rk-pr-enforcer](./docs/rk_terraform_pr_enforcer.drawio.png)
 
 ---
-### RK-Terraform-Module-Manger
+### RK-Terraform-Module-Manger (ModTrack)
 
 This application provides a management view on the state of multiple remote modules, consumers and their environments. Viewers can view data via the RK-Kraken website. It gives a global overview on:
 
